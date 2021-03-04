@@ -1,0 +1,144 @@
+:root{
+    background-color:salmon;
+    }
+    
+    li{
+        padding-bottom: 3px;
+        color:whitesmoke;
+        text-shadow: 1.5px 1px 3px black;
+        list-style-type: none;
+    }
+    
+    p{
+        color: black;
+        text-shadow: .5px .5px white;
+        text-align: center;
+        font-size: larger;
+        font-family: sans-serif;
+    
+    }
+    h2{
+        font-family: sans-serif;
+        margin-top: -.5rem;
+    }
+    input{
+        text-align: center;
+    }
+    
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80rem;
+        margin: 0 auto;
+      }
+    
+      button {
+        display:inline-block;
+        font-family: sans-serif;
+        background-color:blueviolet;
+        border: 3px double salmon;
+        color: black;
+        text-align: center;
+        font-size: 15px;
+        padding: 20px;
+        width: 200px;
+        margin-top: 3px;
+      }
+    
+      button:hover{
+          box-shadow: 4px 3px 6px blue;
+      }
+    
+    #starter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #timer{
+        font-family: sans-serif;
+        background-color: blueviolet;
+        color: blue;
+        font-size: x-large;
+        text-shadow: .5px .5px black;
+        text-align: center;
+    }
+    #quiz {
+        display: none;
+    }
+    
+    #results {
+        display: none;
+    }
+    
+    #over {
+        text-align: center;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #hiScore{
+        height: 1.5rem;
+        border:black 2px;
+    }
+    
+    #hiscoreDiv{
+        display: none;
+        width: 50%;
+        border: solid;
+        border-color: salmon;
+        padding-bottom: .3rem;
+        background: blueviolet;
+    }
+    
+    #hiscore-header{
+        display:flex;
+        justify-content: space-around;
+        border-bottom-style:double;
+        margin-bottom: .5rem;
+        background-color:salmon;
+        color: blueviolet;
+        font-family: sans-serif;
+    }
+    #hiscoreContainer{
+        height: 100%;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #playerName{
+        margin: .5rem;
+        height: 2rem;
+    }
+    
+    #hiscoreIntl{
+        display: inline-block;
+        padding-left: 9.5rem;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    
+    #hiscoreShownScore{
+        float: right;
+        padding-right: 8rem;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    
+    #endScore{
+        padding-bottom: 0.5rem;
+        font-size: large;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    
+    #gameOverBtns{
+        display: none;
+    }
