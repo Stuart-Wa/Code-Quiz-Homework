@@ -5,7 +5,7 @@ Answer the questions in the quiz to see how you fare and compete against yoursel
 
 Hosted live at https://stuart-wa.github.io/2-22-21-password-gen/
 
-![](codequizss.png)
+![](codequizss.PNG)
 
 Enjoy!
 
